@@ -4,3 +4,9 @@ sudo /etc/init.d/nginx restart
 sudo ln -sf /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py
 
 sudo /etc/init.d/gunicorn restart
+
+#sudo gunicorn -c hello.py hello:wsgi_app
+
+#вместо 2х верхних строчек можно написать и так,но тогда в hello.py нужно добавить
+#bind='0.0.0.0:8080'
+
