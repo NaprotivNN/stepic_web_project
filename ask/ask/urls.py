@@ -19,7 +19,7 @@ from django.conf.urls import include, url
 from views import qa
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    
     path('$', views.test, name='t'),
     path('login/', views.test, name='login'),
     path('singup/', views.test, name='singup'),
