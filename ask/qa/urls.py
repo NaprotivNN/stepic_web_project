@@ -1,9 +1,9 @@
+
+
 from django.conf.urls import url
 
-app_name = 'qa'
+from . import views
 
 urlpatterns = [
-    # ex: 
     url(r'^$', views.test, name='test'),
-    
 ]
