@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import include, url
 from qa.views import index, popular
-from ask.views import not_found
 
 urlpatterns = [
     url(r'^$', index),

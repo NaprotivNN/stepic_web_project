@@ -78,8 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'stepic',
-        'USER': 'root',
-        'PASSWORD':'privetSQL',
+        'USER': 'box',
+        #'USER': 'root',
+        #'PASSWORD':'privetSQL',
     }
 }
 
